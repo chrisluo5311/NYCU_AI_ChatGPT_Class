@@ -46,3 +46,53 @@ for i in range(0, len(M)):
     if Sex[i]:
         N.append(M[i])
 print(N)
+
+# %%
+M = ["張三", "李四", "阿貓", "阿狗"]
+print(M[0:2])
+print(M[0:4:3])
+
+# %%
+# 串列遍歷
+
+L = [10, 20, 30, 40]
+for x in L:
+    print(x)
+Names = ["張三", "李四", "阿貓", "阿狗"]
+# 這種寫法失去位置控制權將產生負面後果
+for name in Names:
+    print(name, end=' ')
+
+# %%
+# enumerate 會多給一個索引
+Names = ["張三", "李四", "阿貓"]
+Pays = [40000, 42000, 38000]
+for i, name in enumerate(Names):
+    print("索引：{}\t名字:{}\t薪資:{}".format(i, name, Pays[i]))
+    if Pays[i] >= 40000:
+        print('薪水大於四萬的有：{}'.format(name))
+    else:
+        print('薪水好低的人是：{}'.format(name))
+# 指定索引
+L = [10, 20, 30, 40]
+for i, num in enumerate(L, start=1):
+    print('索引:{}\t數值:{}'.format(i, num))
+
+# %%
+# 印出張三女士 李四先生
+Names = ["張三", "李四", "阿貓", "阿狗"]
+Sex = [True, False, True, False]
+for i, name in enumerate(Names):
+    if Sex[i]:
+        print('{}女士'.format(name))
+    else:
+        print('{}先生'.format(name))
+
+# %%
+Names = ["張三", "李四", "阿貓", "阿狗"]
+Sex = [True, False, True, False]
+Title = ['女士', '先生']
+# int(True)==>1, int(False)==>0
+for i, name in enumerate(Names):
+    out = name + Title[int(Sex[i])]
+    print(out)
