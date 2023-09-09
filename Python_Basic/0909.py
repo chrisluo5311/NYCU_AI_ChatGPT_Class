@@ -96,3 +96,29 @@ Title = ['女士', '先生']
 for i, name in enumerate(Names):
     out = name + Title[int(Sex[i])]
     print(out)
+
+# %%
+# zip 函數：壓縮、配對
+Names = ["張三", "李四", "阿貓"]
+Pays = [40000, 42000, 38000]
+data_list = list(zip(Names, Pays))
+print(data_list)
+for name, pay in data_list:
+    print("名字：{}\t薪資：{}".format(name, pay))
+
+# %%
+Names = ["張三", "李四", "阿貓", "阿狗"]
+Pays = [40000, 42000, 38000, 52000]
+Sex = [True, False, True, False]
+Height = [170, 165, 180, 162]
+Title = []
+for sex in Sex:
+    if sex:
+        Title.append("先生")
+    else:
+        Title.append("女士")
+print(Title)
+for name, pay, title, height in zip(Names, Pays, Title, Height):
+    print(name + title + '您好,您的資料如下：')
+    print("薪資：", pay)
+    print("身高：", height)
