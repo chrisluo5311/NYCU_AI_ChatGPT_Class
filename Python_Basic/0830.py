@@ -8,19 +8,19 @@ a = "嗨！" + "你好"
 print(a)
 
 #%%
-# can only concatenate str (not "int") to str
-# b = "嗨！" + (3*3)
+#can only concatenate str (not "int") to str
+b = "嗨！" + (3*3)
 print(b)
 
 #%%
 # 複製
 c = "張三" * 20
 print(c)
-age = 32
-if age >= 20:
-    print('可以買菸')
-else:
-    print('不行')
+# age = 32
+# if age >= 20:
+#     print('可以買菸')
+# else:
+#     print('不行')
 
 #%%
 #  bool
