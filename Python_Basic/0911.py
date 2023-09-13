@@ -130,7 +130,7 @@ print(new_str)
 # 字串常用函數
 # max() 通用
 # 字串.upper() 小寫換大寫
-# 字串.lower() 大小換小寫
+# 字串.lower() 大寫換小寫
 # 字串.title() 第一個字母換成大寫,其他字母都小寫
 # 字串.swapcase() 大寫換小寫 ＆ 小寫換大寫
 S = "welCome"
