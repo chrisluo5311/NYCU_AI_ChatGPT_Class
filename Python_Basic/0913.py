@@ -186,3 +186,11 @@ while True:
     else:
         result = divide(a,b)
     print("您選擇的是：{}，計算結果為：{}".format(choice,result))
+
+#%%
+def demo():
+    """函數的文件字串"""
+    pass
+
+
+print(demo.__doc__)
