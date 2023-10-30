@@ -47,7 +47,7 @@ cv2.putText(img, "Test text!", (300, 75), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 
 
 cv2.namedWindow("test")
 cv2.imshow("test", img)
-cv2.imwrite("today.jpg", img)
+# cv2.imwrite("today.jpg", img)
 
 cv2.waitKey(0)
 cv2.destroyAllWindows()
