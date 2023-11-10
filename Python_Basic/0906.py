@@ -1,5 +1,5 @@
 # %%
-# for loop practice
+# for loop myown_practice
 for i in range(0, 5):
     print(i)
 for i in range(0, 10):

@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/DNN_Practice/20231009_data_file/.idea/20231009_data_file.iml" filepath="$PROJECT_DIR$/DNN_Practice/20231009_data_file/.idea/20231009_data_file.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/NYCU_AI_ChatGPT_Class.iml" filepath="$PROJECT_DIR$/.idea/NYCU_AI_ChatGPT_Class.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Team_Project/brain_tumor_dataset/.idea/brain_tumor_dataset.iml" filepath="$PROJECT_DIR$/Team_Project/brain_tumor_dataset/.idea/brain_tumor_dataset.iml" />
     </modules>
   </component>
 </project>

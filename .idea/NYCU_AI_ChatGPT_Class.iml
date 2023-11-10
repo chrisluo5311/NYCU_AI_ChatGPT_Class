@@ -5,6 +5,7 @@
     <orderEntry type="jdk" jdkName="imooc_ai" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="20231009_data_file" />
+    <orderEntry type="module" module-name="brain_tumor_dataset" />
   </component>
   <component name="PyDocumentationSettings">
     <option name="renderExternalDocumentation" value="true" />
