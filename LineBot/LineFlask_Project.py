@@ -24,7 +24,7 @@ from linebot.v3.webhooks import (
 
 # 建立OpenAI的連線與ChatGPT的問答連線 & 設定OpenAI金鑰
 import openai
-key = "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"
+key = ""
 openai.api_key = key
 
 def chatgpt_qa(q):
@@ -44,9 +44,9 @@ def chatgpt_qa(q):
 
 # access_token
 configuration = Configuration(
-    access_token='ULmKjnrioXPJ0OvRmZ4535GmdjzCZYGD+a86bjAA3nTCLQp56z+e38uU9g3cwvdZ/c4vM+1Lzc2z39RV/GBP3BUX3F1DHPgy1BSafU4KRauwm2WMcwBOHvQOUsWneZcS1DblCYr0xix34NXnKqqbUwdB04t89/1O/w1cDnyilFU=')
+    access_token='')
 # CHANNEL_SECRET
-handler = WebhookHandler('1c059de19fefcf0c90c85e4b810ff978')
+handler = WebhookHandler('')
 
 app = Flask(__name__)
 
