@@ -43,7 +43,7 @@ cv2.rectangle(img, (300, 75), (400, 100), (0, 0, 255), 1)
 # 字體：cv2.FONT_HERSHEY_SIMPLEX
 # 文字大小: 0.5
 # 筆畫粗細: 1
-cv2.putText(img, "Test text!", (300, 75), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 1)
+cv2.putText(img, "Test_numpy text!", (300, 75), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (0, 0, 0), 1)
 
 cv2.namedWindow("test")
 cv2.imshow("test", img)
